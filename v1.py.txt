@@ -1,0 +1,13 @@
+def factorial(n):
+    fact=1
+    while n>0:
+      fact = fact*n
+      n -=1
+    return fact
+num= int(input("Enter a n value:"))
+if num<0:
+   print("it doesn't exist negative numbers")
+elif num ==0:
+   print("factorial of 0 is 1 ")
+else:
+   print(f"factorial of {num} is {factorial(num)}")
